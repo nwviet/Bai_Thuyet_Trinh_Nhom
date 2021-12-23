@@ -68,7 +68,7 @@ def ChisoTDEE(User, Thongtin):
 
 def TinhCaloMoiNgay(tongcalo): #Tính tổng calo đã bổ sung mỗi ngày
     calo = pandas.read_excel('Book1.xlsx') #Đọc file Excel
-    calo_monan= calo['Món ăn'] #Gọi cột có Header "Món ăn"
+    calo_monan = calo['Món ăn'] #Gọi cột có Header "Món ăn"
     print('Hãy thực đơn trong ngày của bạn')
     while True:
         monan = str.upper(input('Nhập món ăn của bạn: '))
